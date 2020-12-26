@@ -10,7 +10,7 @@ const int MAX_STRING_SIZE = 512;
 
 
 int findAmount(char chArr[]);
-int isOdd(int num);
+bool isOdd(int num);
 
 int findQuantOfSequences(char chArr[]);
 
@@ -70,8 +70,7 @@ int findAmount(char chArr[])
     return answer;
 }
 
-
-int isOdd(int num)
+bool isOdd(int num)
 {
     num %= 2;
 
